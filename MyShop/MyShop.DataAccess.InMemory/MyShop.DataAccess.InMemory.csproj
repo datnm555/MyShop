@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Exception\NotFound.cs" />
+    <Compile Include="Implement\CategoryRepository.cs" />
     <Compile Include="Implement\ProductRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
