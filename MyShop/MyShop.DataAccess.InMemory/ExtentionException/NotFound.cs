@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace MyShop.DataAccess.InMemory.Implement
+namespace MyShop.DataAccess.InMemory.ExtentionException
 {
     [Serializable]
     internal class NotFound : Exception
@@ -14,7 +14,7 @@ namespace MyShop.DataAccess.InMemory.Implement
         {
         }
 
-        public NotFound(string message, Exception innerException) : base(message, innerException)
+        public NotFound(string message, System.Exception innerException) : base(message, innerException)
         {
         }
 

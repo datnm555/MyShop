@@ -42,9 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exception\NotFound.cs" />
-    <Compile Include="Implement\CategoryRepository.cs" />
-    <Compile Include="Implement\ProductRepository.cs" />
+    <Compile Include="ExtentionException\NotFound.cs" />
+    <Compile Include="Implementations\CategoryRepository.cs" />
+    <Compile Include="Implementations\ProductRepository.cs" />
+    <Compile Include="Implementations\InMemoryRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +53,9 @@
       <Project>{7772331e-2439-4b41-9adf-53a707c49621}</Project>
       <Name>MyShop.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

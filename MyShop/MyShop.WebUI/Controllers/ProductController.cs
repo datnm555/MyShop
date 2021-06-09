@@ -1,5 +1,5 @@
 ﻿using MyShop.Core.Models;
-using MyShop.DataAccess.InMemory.Implement;
+using MyShop.DataAccess.InMemory.Implementations;
 using System;
 using System.Collections.Generic;
 using System.Linq;

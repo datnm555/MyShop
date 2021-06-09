@@ -1,4 +1,5 @@
 ﻿using MyShop.Core.Models;
+using MyShop.DataAccess.InMemory.ExtentionException;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +7,7 @@ using System.Runtime.Caching;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyShop.DataAccess.InMemory.Implement
+namespace MyShop.DataAccess.InMemory.Implementations
 {
     public class ProductRepository
     {

@@ -8,14 +8,12 @@ using System.Threading.Tasks;
 
 namespace MyShop.Core.Models
 {
-    public class Product
+    public class Product : Base
     {
         public Product()
         {
-            Id = Guid.NewGuid();
         }
 
-        public Guid Id { get; set; }
         [Required]
         [StringLength(50)]
         [DisplayName("Product Name")]

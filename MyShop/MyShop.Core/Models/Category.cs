@@ -6,14 +6,12 @@ using System.Threading.Tasks;
 
 namespace MyShop.Core.Models
 {
-    public class Category
+    public class Category : Base
     {
         public Category()
         {
-            Id = Guid.NewGuid();
         }
 
-        public Guid Id { get; set; }
         public string Name { get; set; }
     }
 }
